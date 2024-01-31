@@ -9,8 +9,8 @@
   "env": {
     "DATABASE_URL": {
       "description": "your mongodb database url",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "mongodb+srv://Samuel:Gh^&43GF65D@whatappbot.rax8lde.mongodb.net/"
     },
     "SESSION_ID": {
       "description": "your session id",
@@ -24,13 +24,13 @@
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "5da5c3a2-5c43-414e-87c8-399f2efd041b"
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
@@ -54,8 +54,8 @@
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "KguGQbEpmuGfAtdZqf9EYAqg"
     }
     },
     "buildpacks": [
