@@ -1,8 +1,8 @@
 
 let ro = 3000
 let handler = async (m, { conn, usedPrefix, command}) => {
-    let time = global.db.data.users[m.sender].lastrob + 7200000
-    if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️¡Hey! wait *${msToTime(time - new Date())}* to steal again`
+    let time = global.db.data.users[m.sender].lastrob + 3600000
+    if (new Date - global.db.data.users[m.sender].lastrob < 3600000) throw `⏱️¡Hey! wait *${msToTime(time - new Date())}* to steal again`
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
     else who = m.chat
@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 
   handler.help = ['rob']
   handler.tags = ['economy']
-  handler.command = ['robar', 'rob']
+  handler.command = ['robber', 'rob']
   
   export default handler
   

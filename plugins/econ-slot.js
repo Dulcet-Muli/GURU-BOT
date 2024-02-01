@@ -70,7 +70,7 @@ ${end}`)
 }
 handler.help = ['slot <amount>']
 handler.tags = ['game']
-handler.command = ['slot']
+handler.command = ['slot', 'st']
 
 handler.group = true
 

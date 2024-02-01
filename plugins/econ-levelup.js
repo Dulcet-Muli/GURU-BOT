@@ -2,9 +2,9 @@ import { canLevelUp, xpRange } from '../lib/levelling.js';
 
 let handler = async (m, { conn }) => {
     let name = conn.getName(m.sender);
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/whjlJSf.jpg');
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://imgur.com/c0edTtd.jpg');
     let user = global.db.data.users[m.sender];
-    let background = 'https://i.ibb.co/4YBNyvP/images-76.jpg'; // Fixed background URL
+    let background = 'https://ibb.co/hCQFjMD.jpg'; // Fixed background URL
 
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier);

@@ -17,8 +17,8 @@ ${usedPrefix + command} 1000`.trim()
     let credit = users.credit
     let amount = (args[0] && number(parseInt(args[0])) ? Math.max(parseInt(args[0]), 1) : /all/i.test(args[0]) ? Math.floor(parseInt(users.credit)) : 1) * 1
 
-    let time = users.lastcf + 90000
-        if (new Date - users.lastcf < 90000) throw `You can play cock-fight again in ${msToTime(time - new Date())}`
+    let time = users.lastcf + 180000
+        if (new Date - users.lastcf < 180000) throw `You can play cock-fight again in ${msToTime(time - new Date())}`
         if (amount < 100) throw `🟥 *You can't bet gold less than 100*`
         if (users.credit < amount) throw `🟥 *You don't have enough money for this bet.*\n*You currently have only ${credit} in gold.*`
         if (users.chicken < 1) {
@@ -28,11 +28,11 @@ ${usedPrefix + command} 1000`.trim()
 
     let botScore = (Math.ceil(Math.random() * 35)) * 1  // Random score for the bot (1 to 51)
     let playerScore = (Math.floor(Math.random() * 101)) * 1  // Random score for the player (1 to 100)
-    let status = `Your chicken died 🪦`
+    let status = `Your chicken died \n *See you at funeral tommorow*🪦`
 
       if (botScore < playerScore) {
         users.credit += amount * 1
-        status = `Your lil chicken won the fight, and made you 🪙 ${amount * 2} gold richer! 🐥`
+        status = `Your lil chicken won the fight, and made you 🪙 ${amount} gold richer! \n🐥`
       } else {
         users.credit -= amount * 1
         users.chicken -= 1

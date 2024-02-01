@@ -537,7 +537,7 @@ import {
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
     ${botname} あ⁩ 」\n
-    Hii ${name} Senpai
+    Hii ${name} 
     
     *${ucpn}* 
    
@@ -618,75 +618,75 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://ibb.co/8rhW8NW.jpg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://imgur.com/66S7V5m.jpg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
@@ -730,7 +730,7 @@ import {
    }
    
    function ucapan() {
-    const time = moment.tz("Asia/Kolkata").format("HH")
+    const time = moment.tz("Kenya/Nairobi").format("HH")
     let res = "Good morning ☀️"
     if (time >= 4) {
      res = "Good Morning 🌄"
