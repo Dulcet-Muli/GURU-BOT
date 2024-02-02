@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 		for (let i of data) {
 			txt += `▢ @${i.split("@")[0]}\n`
 		}
-		txt += "└───────────"
+		txt += "└───────────|"
 		return conn.reply(m.chat, txt, m, { mentions: await conn.parseMention(txt) })
 	}).catch(err => {
 		console.log(err);
