@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
 
     user.credit -= 1000
     user.chicken += 1
-    m.reply(`🎉 You have successfully bought a chicken to fight! Use the command ${usedPrefix}cock-fight <amount>`)
+    m.reply(`🎉 You have successfully bought a chicken to fight!\n Use the command ${usedPrefix}cock-fight <amount>`)
 }
 
 handler.help = ['buych']

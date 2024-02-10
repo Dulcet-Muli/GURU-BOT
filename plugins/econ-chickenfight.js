@@ -32,7 +32,7 @@ ${usedPrefix + command} 1000`.trim()
 
       if (botScore < playerScore) {
         users.credit += amount * 1
-        status = `Your lil chicken won the fight, and made you 🪙 ${amount} gold richer! \n🐥`
+        status = `\`\`\`Your lil chicken won the fight,\`\`\` and made you 🪙 ${amount} gold richer! \n🐥`
       } else {
         users.credit -= amount * 1
         users.chicken -= 1
