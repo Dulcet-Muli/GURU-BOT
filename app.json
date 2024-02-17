@@ -10,7 +10,7 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": true,
-      "value": "mongodb+srv://Samuel:Gh^&43GF65D@whatappbot.rax8lde.mongodb.net/"
+      "value": "mongodb+srv://Dulcet:bPvcHEcnv1WmQ1q3@whatsapp1.2tgdioj.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
       "description": "your session id",
