@@ -281,7 +281,7 @@ break;
           lkr = `use command ${usedPrefix}nsfw`; // 
           break;
           case 'logomenu':
-          lkr = `use ${usedPrefix}logo to see all options \ngfx cmd upto 12`; // 
+          lkr = `use ${usedPrefix}logomenu to see all options \ngfx cmd upto 12`; // 
           break;
         default:
           lkr = `Invalid command. Type ${usedPrefix}list to see available options.`;
