@@ -8,14 +8,14 @@ let handler = async m => m.reply(`
 
 Group1:
 _____________________
-https://chat.whatsapp.com
+https://chat.whatsapp.com/IW866EwDmuC9wrVju3KMBX
 _________________________
 _________________________
 _________________________
 
 *DEVELOPER*/
 1:___________________\n🔰 *MOD* 🔰_
-  |  wa.me/254708192575
+  |  wa.me/254705244235
   |  SaMuli
   |>>>>>>>>>>>>>>>>>>>>>|
 

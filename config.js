@@ -8,15 +8,14 @@ import axios from 'axios'
 
 global.owner = [
   ['254705244235', 'Samuel Muli', true],
-  ['254708192575', 'SaMuli', true], 
-  [''] 
+  
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
 global.mods = ['254705244235','254708192575'] 
-global.prems = ['254705244235', '254708192575', '254784277043']
-global.allowed = ['254705244235', '254708192575', '254784277043']
+global.prems = ['254705244235', '254708192575' ]
+global.allowed = ['254705244235', '254708192575']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -56,7 +55,7 @@ global.packname = 'Shotgun_Suppressor┃ᴮᴼᵀ'
 global.author = 'SaMuli' 
 global.menuvid = 'https://imgur.com/oJmj7SD.jpg'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com\n' 
-global.dygp = 'https://chat.whatsapp.com'
+global.dygp = 'https://chat.whatsapp.com/IW866EwDmuC9wrVju3KMBX'
 global.fgsc = 'https://github.com/Samuel_Muli/GURU-BOT' 
 global.fgyt = 'https://youtube.com'
 global.fgpyp = 'https://youtube.com'
@@ -64,7 +63,7 @@ global.fglog = 'https://imgur.com/oJmj7SD.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
-global.wait = '*⌛ \n *Charging..._*\n\n\t*▰▰▰▱▱▱▱▱*'
+global.wait = '⌛ \n *Charging..._*\n\n\t*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'

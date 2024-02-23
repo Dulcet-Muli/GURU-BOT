@@ -8,7 +8,7 @@ const handler = async (m, {
     args,
     usedPrefix
 }) => {
-    if (!text) throw `give a text to search Example: *${usedPrefix + command}* Nation Protector`;
+    if (!text) throw `give a text to search Example: *${usedPrefix + command}* kenya bot`;
     conn.gogleit = conn.gogleit ? conn.gogleit : {};
     await conn.reply(m.chat, wait, m);
     const result = await googleresult(text);
@@ -93,4 +93,3 @@ async function googleresult(query) {
         return "Error: " + error.message;
     }
 }
-

@@ -65,8 +65,8 @@ import {
   ◈ .reset <54xxx>
   ◈ .resetprefix
   ◈ .restart
-  ◈ ..setprefix
-  ◈ ..setprefix [symbol]
+  ◈ .setprefix
+  ◈ .setprefix [symbol]
   ◈ .unban @user
   ◈ .unbanchat
   ◈ .update

@@ -6,7 +6,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     let name = m.pushName || conn.getName(m.sender)
     var vn = "./Assets/mp3/Guru2.mp3"
     let url = "https://github.com/Samuel-Muli/GURU-BOT"
-    let murl = "https://youtu.be"
+    let murl = "https://youtube"
     let img = "https://imgur.com/oJmj7SD.jpg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
@@ -24,7 +24,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           title: "I AM ALIVE",
           body: "Shotgun_SuppressorBOT",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com',
+          sourceUrl: 'https://chat.whatsapp.com/IW866EwDmuC9wrVju3KMBX',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
