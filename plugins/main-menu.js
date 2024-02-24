@@ -696,7 +696,7 @@ import {
   };
   
   
-  handler.help = ["play"];
+  handler.help = ["play", "main"];
   handler.tags = ["downloader"];
   handler.command = /^(menu)$/i;
   handler.limit = true;
@@ -730,7 +730,7 @@ import {
    }
    
    function ucapan() {
-    const time = moment.tz("Kenya/Nairobi").format("HH")
+    const time = moment.tz("Africa/Nairobi").format("HH")
     let res = "Good morning ☀️"
     if (time >= 4) {
      res = "Good Morning 🌄"
