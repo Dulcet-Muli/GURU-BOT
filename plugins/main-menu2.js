@@ -45,7 +45,7 @@ let str = `
 ┃ 👾  *User Tag:* ${taguser} 
 ┃ 🎩  *Name:* ${name} 
 ┃ 🦸  *Master Mind:* ${author} 
-┃ 💎  *Gold:* ${credit} 
+┃ 💎  *Gold:* ${diamond} 
 ┃ 🏆  *Rank:* ${role}
 ┃ 🎮  *XP:* ${exp} 
 ┗━━━━━━━━━━━┛
